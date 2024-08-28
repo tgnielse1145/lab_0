@@ -1,4 +1,4 @@
-/Users/toddnielsen/ECE_6785/blink/build/CMakeFiles/blink.dir
+/Users/toddnielsen/ECE_6785/blink/build/CMakeFiles/testing.dir
 /Users/toddnielsen/ECE_6785/blink/build/CMakeFiles/edit_cache.dir
 /Users/toddnielsen/ECE_6785/blink/build/CMakeFiles/rebuild_cache.dir
 /Users/toddnielsen/ECE_6785/blink/build/pico-sdk/CMakeFiles/edit_cache.dir

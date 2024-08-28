@@ -1,18 +1,13 @@
-#include <stdint.h>
-#include <unity.h>
+#include <stdio.h>
+#include "pico/stdlib.h"
 
-void setUp(void) {}
 
-void tearDown(void) {}
-
-void testWorks()
+int main()
 {
-    TEST_ASSERT_TRUE_MESSAGE(1 == 1,"Data bits not set as expected");
-}
+    stdio_init_all();
 
-int main (void)
-{
-    UNITY_BEGIN();
-    RUN_TEST(testWorks);
-    return UNITY_END();
+    while (true) {
+        printf("Hello, world!\n");
+        sleep_ms(1000);
+    }
 }

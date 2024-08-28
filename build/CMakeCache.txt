@@ -166,7 +166,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=blink
+CMAKE_PROJECT_NAME:STATIC=testing
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Users/toddnielsen/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ranlib
@@ -338,6 +338,15 @@ pico_sdk_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 pico_sdk_SOURCE_DIR:STATIC=/Users/toddnielsen/.pico-sdk/sdk/2.0.0
+
+//Value Computed by CMake
+testing_BINARY_DIR:STATIC=/Users/toddnielsen/ECE_6785/blink/build
+
+//Value Computed by CMake
+testing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+testing_SOURCE_DIR:STATIC=/Users/toddnielsen/ECE_6785/blink
 
 
 ########################
